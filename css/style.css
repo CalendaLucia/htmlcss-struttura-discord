@@ -4,3 +4,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    max-width: 1200px;
+    height: 230px;
+    background-color:#00008b ;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.logo, .login, .link {
+   background-color:#daa520;
+    border: 1px dashed black;
+  
+} 
+
+.link {
+    width: 50%;
+    text-align: center;
+}
+
+.login {
+    width: 15%;
+    text-align: end;
+}
+
+.logo {
+    width: 15%;
+ 
+}
+
+.box_pink {
+    width: 60%;
+    height: 150px;
+    background-color: #ee82ee;
+    margin: 0 auto; 
+    margin-top: 20px;
+    
+   
+
+
+
+
+
+
+
+
+
