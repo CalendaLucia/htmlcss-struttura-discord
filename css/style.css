@@ -58,17 +58,22 @@ nav {
     margin-top: 20px;
 }
   
-.section, .aside-content {
+.section,.aside-content {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width:100%;
-    min-height:210px;
+    min-height:200px;
 }
 
 section .lightgray {
     background-color:#d3d3d3 ;
 }
+
+.transform {
+    transform: rotate(0.5turn);
+}
+
 
 #big-section {
     width: 100%;
@@ -127,6 +132,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    
 }
 
 .logo-footer, .button {
@@ -138,11 +144,4 @@ footer {
 hr {
     margin-bottom: 10px;
     border: 1px solid white;
-    border-radius: 5px;
 }
-
-
-
-
-
-
